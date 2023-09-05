@@ -1,0 +1,10 @@
+h1 {
+    transition: all 1s;
+}
+
+
+.active {
+    font-size: 60px;
+    color: darkgoldenrod;
+    background-color: rgb(184, 98, 98);
+}
