@@ -1,6 +1,6 @@
 $(function () {
 
-    $('.btn-menu').on('click', function menuToggle () {
+    $('.btn-menu').on('click', function menuToggle() {
         let mainHeight = $('.main').get(0).scrollHeight;
         // console.log(mainHeight);
         $('.main-filter').css('height', mainHeight);
@@ -26,4 +26,5 @@ $(function () {
         return false;
     })
 
+   
 })
