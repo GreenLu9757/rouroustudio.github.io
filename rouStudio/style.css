@@ -10,7 +10,7 @@
 body {
     background-color: var(--primary-bgc);
     perspective: 1300px;
-    overflow-y: hidden;
+    overflow: hidden;
     perspective-origin: 0% 0%;
 }
 
@@ -150,6 +150,8 @@ h2 {
     width: 100%;
     height: 100vh;
     overflow-y: scroll;
+    overflow-x: hidden;
+    /* -webkit-overflow-scrolling: touch; */
     transition: all 0.5s;
     transform-origin: 100% 0%;
     -webkit-box-reflect: below 3px linear-gradient(transparent, #ffffff80);
@@ -298,7 +300,6 @@ h1::after,
     width: 100%;
     top: 0;
     left: 0;
-    border-radius: 10px;
     z-index: 10;
 }
 
