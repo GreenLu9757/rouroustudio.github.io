@@ -1,3 +1,8 @@
+$(window).ready(function(){
+    $(".loading").delay(5000).fadeOut(1000);
+})
+
+
 $(function () {
 
     $('.btn-menu').on('click', function menuToggle() {
