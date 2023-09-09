@@ -202,8 +202,13 @@ h2 {
     /* background-color: #aa998f; */
     background-color: #a5a58d;
     border: 2px solid #fff;
+    transition: all .5s;
 }
-
+.btn-booking:hover{
+    transform:scale(1.05);
+    color: #fff;
+    background-color: #414128;
+}
 .menu-colBar {
     position: fixed;
     top: 0;
